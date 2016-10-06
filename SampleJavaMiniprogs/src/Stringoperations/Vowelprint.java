@@ -15,6 +15,7 @@ public class Vowelprint {
 					System.out.println(c1);
 					count++;
 					break;
+					
 				case 'e':
 					System.out.println(c1);
 					count++;
