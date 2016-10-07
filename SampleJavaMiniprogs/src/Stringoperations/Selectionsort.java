@@ -9,12 +9,20 @@ public class Selectionsort {
 	        {
 	            int index = i;
 	            for (int j = i + 1; j < arr.length; j++)
+	            {
 	                if (arr[j] < arr[index])
+	                {
 	                    index = j;
+	                }
+	            
+	                
+	            }
 	      
 	            int smallerNumber = arr[index]; 
 	            arr[index] = arr[i];
 	            arr[i] = smallerNumber;
+	                
+	               
 	        }
 
 	}
@@ -22,7 +30,7 @@ public class Selectionsort {
 	public static void main(String[] args) {
 		
 
-		int[] num={3,56,7,1,3,2};
+		int[] num={3,5,7,1,3,2};
 		SelectionSort(num);
 		for(int i=0;i<num.length;i++)
 		{
