@@ -3,21 +3,20 @@ package Stringoperations;
 public class Selectionsort {
 	
 	
-	public static void SelectionSort ( int [ ] num )
+	public static void SelectionSort ( int [ ] arr )
 	{
-	     int i, j, first, temp;  
-	     for ( i = num.length - 1; i > 0; i-- )  
-	     {
-	          first = 0;   //initialize to subscript of first element
-	          for(j = 1; j <= i; j ++)   //locate smallest element between positions 1 and i.
-	          {
-	               if( num[ j ]> num[ first ] )         
-	                 first = j;
-	          }
-	          temp = num[ first ];   //swap smallest found with element in position i.
-	          num[ first ] = num[ i ];
-	          num[ i ] = temp; 
-	      }           
+		 for (int i = 0; i < arr.length - 1; i++)
+	        {
+	            int index = i;
+	            for (int j = i + 1; j < arr.length; j++)
+	                if (arr[j] < arr[index])
+	                    index = j;
+	      
+	            int smallerNumber = arr[index]; 
+	            arr[index] = arr[i];
+	            arr[i] = smallerNumber;
+	        }
+
 	}
 
 	public static void main(String[] args) {
