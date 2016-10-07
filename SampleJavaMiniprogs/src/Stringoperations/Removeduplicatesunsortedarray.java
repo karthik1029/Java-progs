@@ -7,7 +7,7 @@ public class Removeduplicatesunsortedarray {
 		 int size=arr.length;
 		    for(int i=0;i<size;i++)
 		    {
-		        for(int j=i+1;j<size;j++)
+		        for(int j=i+1;j<size;)
 		        {
 
 		            if(arr[i]==arr[j])

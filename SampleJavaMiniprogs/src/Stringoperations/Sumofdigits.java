@@ -3,6 +3,7 @@ package Stringoperations;
 public class Sumofdigits {
 
 	public static void main(String[] args) {
+		
 		int i=123;
 		String s=String.valueOf(i);
 		int total=0;

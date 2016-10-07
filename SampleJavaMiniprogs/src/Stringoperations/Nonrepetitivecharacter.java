@@ -4,6 +4,7 @@ public class Nonrepetitivecharacter {
 	
 	public static char nonrep(String s)
 	{
+		
 		char[] ch=s.toCharArray();
 		int n=ch.length;
 		int count=0;

@@ -3,7 +3,7 @@ package Stringoperations;
 public class Maxrepeatedcharinastring {
 
 	public static void main(String[] args) {
-		String s="geeekkkkkeee";
+		String s= "geeekkkkkeee";
 		char[] ch=s.toCharArray();
 		char ch1=0;
 		int n=s.length();

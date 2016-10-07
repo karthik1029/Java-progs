@@ -3,6 +3,7 @@ package Stringoperations;
 public class Sunofnosinastring {
 
 	public static void main(String[] args) {
+		
 		String s="12dad13";
 		int total=0;
 		int n=s.length();

@@ -7,7 +7,6 @@ public class Anagram {
 	{
 		if(x.length()!=y.length())
 		{
-			
 			System.out.println("Not an anagram");
 		}
 		else

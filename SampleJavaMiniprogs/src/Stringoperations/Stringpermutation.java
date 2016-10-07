@@ -11,6 +11,7 @@ public class Stringpermutation {
 		char[] chy=y.toCharArray();
 		int sx=0; 
 		int sy=0;
+		 
 		
 		for(char cx: chx)
 		{

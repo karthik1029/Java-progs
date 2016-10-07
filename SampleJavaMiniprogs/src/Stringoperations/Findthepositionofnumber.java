@@ -8,11 +8,11 @@ public class Findthepositionofnumber {
 		for(int i=0;i<s.length();i++)
 		{
 			char c=s.charAt(i);
-			if(c=='7')
+			if(c =='7')
 			{
 				System.out.println(i+1);
 			}
-		}
+		} 
 
 	}
 

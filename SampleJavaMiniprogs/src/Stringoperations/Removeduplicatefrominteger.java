@@ -3,6 +3,7 @@ package Stringoperations;
 public class Removeduplicatefrominteger {
 
 	public static void main(String[] args) {
+		
 		int x=134538;
 		String s=String.valueOf(x);
 		char[] ch=s.toCharArray();		
