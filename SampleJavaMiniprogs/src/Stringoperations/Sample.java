@@ -1,6 +1,6 @@
 package Stringoperations;
 
-import java.util.Arrays;
+
 
 public class Sample {
 	public static char nonrp(String s)
