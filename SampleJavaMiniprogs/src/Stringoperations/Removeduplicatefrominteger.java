@@ -4,7 +4,7 @@ public class Removeduplicatefrominteger {
 
 	public static void main(String[] args) {
 		
-		int x=134538;
+		int x=1345381;
 		String s=String.valueOf(x);
 		char[] ch=s.toCharArray();		
 		int size=ch.length;
@@ -24,6 +24,7 @@ public class Removeduplicatefrominteger {
 		{
 			System.out.print(ch[i]);
 		}
+		
 
 	}
 
