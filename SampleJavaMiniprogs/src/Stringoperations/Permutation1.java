@@ -1,5 +1,7 @@
 package Stringoperations;
 
+
+
 public class Permutation1 {
 	
 	public static void perm(String prefix, String str) {
@@ -16,8 +18,9 @@ public class Permutation1 {
 	    		perm(prefix+str.charAt(i),str.substring(0, i)+str.substring(i+1, n));
 	    	}
 	    }
-	   
+	 
 	}
+	
 
 
 	public static void main(String[] args) {
