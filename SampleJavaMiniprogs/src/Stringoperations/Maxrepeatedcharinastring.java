@@ -1,4 +1,4 @@
-package Stringoperations;
+ package Stringoperations;
 
 public class Maxrepeatedcharinastring {
 
