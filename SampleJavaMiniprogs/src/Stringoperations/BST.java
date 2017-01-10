@@ -1,6 +1,6 @@
 package Stringoperations;
 
-
+import java.util.Stack;
 
 public class BST {
 	
@@ -57,6 +57,28 @@ public class node{
 			
 		}
 		
+		public void inord(node n)
+		{
+			Stack<node> s=new Stack<node>();
+			while(true)
+			{
+			while(n!=null)
+			{
+				System.out.println(n.value);
+				s.push(n);
+				n=n.left;
+			}
+			
+			if(s.isEmpty())
+			{
+				return;
+			}
+			
+			n=s.pop();
+			n=n.right;
+		}
+		}
+		
 		public void search(node n,int v)
 		{
 			try {
@@ -108,6 +130,8 @@ public class node{
 		n.insert(n, 9);
 		System.out.println("Min: "+n.min(n));
 		n.search(n, 13);
+		System.out.println();
+		n.inord(n);
 
 	}
 }
