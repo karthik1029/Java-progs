@@ -16,7 +16,7 @@ public class Reverseint {
 
 	public static void main(String[] args) {
 		
-		System.out.println(reverse(15));
+		System.out.println(reverse(23));
 
 	}
 
