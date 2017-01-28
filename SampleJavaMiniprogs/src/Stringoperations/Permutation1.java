@@ -22,7 +22,6 @@ public class Permutation1 {
 	}
 	
 
-
 	public static void main(String[] args) {
 		perm("","ant");
 
