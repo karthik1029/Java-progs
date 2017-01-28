@@ -13,7 +13,6 @@ public class Patterntwoloops {
 			System.out.println();
 		}
 
-
 	}
 
 }
