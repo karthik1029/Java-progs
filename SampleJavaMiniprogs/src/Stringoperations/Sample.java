@@ -2,21 +2,35 @@ package Stringoperations;
 
 
 
-public class Sample {
-	
-	
+public class Sample extends Thread {
+
 
 public static void main(String[] args)  {
 	
-	int[] a={2, 3, 5, 4, 5, 2, 4, 3, 5, 2, 4, 4, 2};
-	int x=0;
-	
-	for(int i=0;i<a.length;i++)
+Sample s1=new Sample();
+Sample s2=new Sample();
+
+s1.start();
+
+
+s2.start();
+
+}
+
+public void run() {
+	for(int i=1;i<5;i++)
 	{
-		x^=a[i];
+		
+		
+		try {
+			Thread.sleep(100);
+		} catch (InterruptedException e) {
+			
+			e.printStackTrace();
+		}
+		System.out.println(Thread.currentThread().getName());
+		System.out.println(i);
 	}
-	
-	System.out.println(x);
 	
 }
 }
